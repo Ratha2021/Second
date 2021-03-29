@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<title>FOODLAND!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.ico">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body class="FORALL">
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Tab</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Delicious Food!</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Food Lover</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <a href="mailto:szluos@gmail.com" class="CONTACT"><div class="w3-right w3-padding-16">Contact me!</div></a>
+    <div class="w3-center w3-padding-16">Delicious FOOD!</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="Sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>Sandwich!</h3>
+      <p>Very delicious and healthy!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Steak.jpg" alt="Steak" style="width:100%">
+      <h3>Steak!</h3>
+      <p>You eat this with knife and fork!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Cherry.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries!</h3>
+      <p>It's very sweet!</p>
+      <p>Not sour at all!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Pasta.jpg" alt="Pasta" style="width:100%">
+      <h3>Pasta!</h3>
+      <p>Everyone likes Spaghetti right?</p>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="Popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>Ice cream!</h3>
+      <p>An ice cream in the summer is the best!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon!</h3>
+      <p>If you like sushi, you will like salmon!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Hamburger.jpg" alt="hamburger" style="width:100%">
+      <h3>Hamburger!</h3>
+      <p>Do you like the BIG MAC from McDonald's?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Pizza.jpg" alt="Pizza" style="width:100%">
+      <h3>Pizza!</h3>
+      <p>I love Pizza! How about you??</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">More coming soon!</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>The Food Lover is like:</h3><br>
+    <img src="FOODLOVER.gif" alt="Food Lover" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Who is Food Lover?</b></h4>
+      <h6><i>Well, it's people who love food!</i></h6>
+      <p>Having the desire of eating all the food around the world before you die! Don't miss all the delicious food you haven't try!</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Ratha</h3>
+      <p>The owner of this website who loves to eat delicious food!</p>
+      <p>Powered by <a href="https://www.facebook.com/thememorycoffee/" target="_blank">The Memory Coffee</a></p>
+    </div>
+
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="Spongebob.jfif" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Spongebob</span><br>
+          <span>Popular Cartoon!</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="Drinks.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Drinks</span><br>
+          <span>Find out some good drink?</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Food</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Thailand</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Delicious</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">The Memory Coffee</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Food Lover</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Bangkok</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Anime</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Hamburger</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sandwich</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cherry</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pasta</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ice cream</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
